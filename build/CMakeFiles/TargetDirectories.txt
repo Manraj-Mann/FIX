@@ -1,3 +1,0 @@
-/workspaces/FIX/build/CMakeFiles/fix_benchmark.dir
-/workspaces/FIX/build/CMakeFiles/edit_cache.dir
-/workspaces/FIX/build/CMakeFiles/rebuild_cache.dir

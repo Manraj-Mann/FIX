@@ -1,13 +1,12 @@
-cmake_minimum_required(VERSION 3.16)
-project(FIXEngineBenchmark VERSION 0.1 LANGUAGES CXX)
-
-set(CMAKE_CXX_STANDARD 20)
+cmake_minimum_required(VERSION 3.10)
+project(FIX)
+set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O3 -march=native -pipe")
 
-add_executable(fix_benchmark
-  src/main.cpp
-  src/engine.cpp
-)
+# Enable logging
+# add_definitions(-DENABLE_LOGGING)
 
-target_include_directories(fix_benchmark PRIVATE src)
+# store the executable in bin/
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+
+add_subdirectory(learnings)

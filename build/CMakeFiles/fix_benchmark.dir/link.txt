@@ -1,1 +1,0 @@
-/usr/bin/c++  -O3 -march=native -pipe CMakeFiles/fix_benchmark.dir/src/main.cpp.o CMakeFiles/fix_benchmark.dir/src/engine.cpp.o -o fix_benchmark 
